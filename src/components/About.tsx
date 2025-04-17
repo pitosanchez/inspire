@@ -8,54 +8,71 @@ export function About() {
     <Section>
       <SectionHeading>ABOUT</SectionHeading>
       <SectionParagraph>
-        At <strong>Inspire Kidney Transplant Resources</strong>, we believe that
-        everyone deserves a fair chance at receiving a life-saving kidney
-        transplant. However, we also recognize that many people, especially
-        those from Black, Brown, and underserved communities, face serious
-        obstacles when trying to access kidney care.
+        At <strong>Inspire Kidney Transplant Resources</strong>, we understand
+        that the road to receiving a kidney transplant can feel overwhelming and
+        complex. We believe everyone deserves clear guidance and accessible
+        support to navigate the many steps involved in securing this life-saving
+        treatment.
       </SectionParagraph>
+
       <SectionParagraph>
-        These barriers include racial bias in healthcare, financial struggles,
-        lack of reliable transportation, food and housing insecurity, and
-        limited access to medical information. Many people are not given the
-        same opportunities to get evaluated for a transplant because of these
-        challenges. This is not fair, and we are here to change that.
+        Many individuals face significant barriers when approaching the
+        transplant system. Challenges such as financial burdens, lack of
+        reliable transportation, unstable housing situations, limited
+        nutritional resources, and insufficient access to clear medical guidance
+        can all create substantial obstacles. At Inspire, we recognize these
+        issues have often been overlooked, and we are dedicated to providing
+        targeted solutions to ease these burdens.
       </SectionParagraph>
+
       <SectionParagraph>
-        Our goal is to provide easy-to-understand education, one-on-one patient
-        support, and strong community partnerships to help break down these
-        barriers. By doing this, we empower people with the tools and knowledge
-        they need to navigate the complicated transplant process with
-        confidence.
+        Our mission is to simplify the transplant process through comprehensive,
+        patient-centered education, personalized support, and strong
+        collaborative partnerships within the healthcare community. By
+        addressing these everyday yet critical needs, we empower patients with
+        the tools, information, and confidence required to advocate for their
+        health and successfully navigate their transplant journey.
       </SectionParagraph>
+
       <SectionSubHeading>How We Help</SectionSubHeading>
+
       <SectionParagraph>
-        We work with trusted doctors, hospitals, and community organizations to
-        design programs that make kidney transplant access more fair and equal
-        for everyone. One of our most important programs is the Community Health
-        Worker initiative.
+        Inspire collaborates closely with leading medical professionals,
+        hospitals, and community organizations to design and implement
+        practical, innovative programs aimed at improving transplant access for
+        all patients. Central to our approach is the Community Health Worker
+        (CHW) initiative, a program specifically crafted to address real-world
+        patient needs in tangible, meaningful ways.
       </SectionParagraph>
+
       <SectionParagraph>
-        Our CHWs are trained professionals who help patients and families
-        understand their transplant options, connect them with doctors, and
-        provide support every step of the way . <br />
+        Our CHWs are compassionate, trained professionals who act as patient
+        navigators, ensuring that every patient and their family fully
+        understands their transplant options, connecting them directly with
+        healthcare providers, and offering ongoing support and guidance
+        throughout the entire transplant process.
+        <br />
         <br />
         <strong>They assist with:</strong>
       </SectionParagraph>
-      {/* The beginning of the ul-li  */}
+
       <HelpList />
+
       <SectionSubHeading>
-        YOU ARE NOT ALONE<strong className="text-red-700"> !</strong>
+        YOU ARE NOT ALONE<strong className="text-red-700">!</strong>
       </SectionSubHeading>
+
       <SectionParagraph>
-        We understand that the journey to a kidney transplant can feel
-        overwhelming, but you do not have to go through it alone. Whether you
-        need guidance, resources, or just someone to answer your questions, we
-        are here to help.
+        We understand how daunting and isolating the kidney transplant journey
+        can be. Our promise to you is simple—you don't have to navigate this
+        path alone. Whether you're seeking clear answers, practical resources,
+        or someone to support you through every question and challenge, Inspire
+        Kidney Transplant Resources is here for you.
       </SectionParagraph>
+
       <SectionParagraph>
-        Explore our resources today to learn more about how we can support you
-        on your path to a healthier future.
+        Reach out today to learn more about how we can help guide you toward a
+        healthier and more confident future.
       </SectionParagraph>
     </Section>
   );
