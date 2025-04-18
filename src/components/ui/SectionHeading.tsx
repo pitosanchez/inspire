@@ -4,7 +4,7 @@ export function SectionHeading({ children, id }: SectionHeadingProps) {
   return (
     <h1
       id={id}
-      className="text-black-700 mt-10 mb-8 text-center text-5xl font-bold"
+      className="mt-15 mb-8 text-center text-4xl font-bold text-blue-400"
     >
       {children}
     </h1>

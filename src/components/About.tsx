@@ -6,7 +6,7 @@ import { SectionSubHeading } from "./ui/SectionSubHeading";
 export function About() {
   return (
     <Section>
-      <SectionHeading id="about">ABOUT</SectionHeading>
+      <SectionHeading id="about">Our Services</SectionHeading>
       <SectionParagraph>
         At <strong>Inspire Kidney Transplant Resources</strong>, we understand
         that the road to receiving a kidney transplant can feel overwhelming and
