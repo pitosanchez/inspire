@@ -9,7 +9,7 @@ export function Header() {
         className="absolute top-1/2 left-1/2 -translate-1/2"
       />
       <nav className="absolute bottom-0 flex w-full justify-evenly py-4 shadow">
-        <Link href="#home">Home</Link>
+        <Link href="#">Home</Link>
         <Link href="#about">About</Link>
         <Link href="#resources">Resources</Link>
         <Link href="#booklet">Transplant Toolkit</Link> {/* New Link */}

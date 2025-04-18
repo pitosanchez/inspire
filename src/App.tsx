@@ -5,7 +5,7 @@ import { Booklet } from "./components/Booklet";
 
 export default function App() {
   return (
-    <div className="flex min-h-screen flex-col bg-white">
+    <div className="flex min-h-screen flex-col bg-white text-lg">
       <Header />
 
       <main className="p-6">

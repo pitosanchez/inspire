@@ -12,7 +12,7 @@ import LivingDonorResources from "../assets/nldac.webp";
 export function Resources() {
   return (
     <Section>
-      <SectionHeading>PATIENT RESOURCES</SectionHeading>
+      <SectionHeading id="resources">PATIENT RESOURCES</SectionHeading>
       <div className="flex flex-col gap-8 lg:flex-row">
         <div>
           <SectionSubHeading>Become a Living Donor</SectionSubHeading>

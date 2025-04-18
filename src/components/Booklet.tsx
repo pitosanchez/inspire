@@ -8,7 +8,7 @@ export function Booklet() {
 
   return (
     <Section>
-      <SectionHeading>Transplant Toolkit</SectionHeading>
+      <SectionHeading id="booklet">Transplant Toolkit</SectionHeading>
       <div className="flex flex-col items-center gap-6">
         {/* Embedded PDF */}
         <img src={KdTool} alt="Kidney Disease Tool Kit" />

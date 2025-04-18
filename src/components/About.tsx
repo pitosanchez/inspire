@@ -6,7 +6,7 @@ import { SectionSubHeading } from "./ui/SectionSubHeading";
 export function About() {
   return (
     <Section>
-      <SectionHeading>ABOUT</SectionHeading>
+      <SectionHeading id="about">ABOUT</SectionHeading>
       <SectionParagraph>
         At <strong>Inspire Kidney Transplant Resources</strong>, we understand
         that the road to receiving a kidney transplant can feel overwhelming and
@@ -80,7 +80,7 @@ export function About() {
 
 function HelpList() {
   return (
-    <ul className="mx-auto flex w-4/5 max-w-3xl list-none flex-col gap-4">
+    <ul className="mx-auto flex w-7/8 max-w-6xl list-none flex-col gap-4">
       <HelpListItem>
         ✅ <strong>Screening for barriers</strong> – helping patients figure out
         what challenges they may face in getting a transplant.
@@ -109,5 +109,5 @@ function HelpList() {
 type HelpListItemProps = { children: React.ReactNode };
 
 function HelpListItem({ children }: HelpListItemProps) {
-  return <li className="rounded-lg bg-blue-200 p-3 text-base">{children}</li>;
+  return <li className="rounded-lg bg-blue-200 p-3 text-lg">{children}</li>;
 }
